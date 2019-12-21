@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Persona;
 namespace principal
 {
 	class Program
@@ -18,6 +18,8 @@ namespace principal
 			{
 				Console.WriteLine(item);
 			}
+			Autos autos = new Autos();
+			autos.Placa = "abc001";
 		}
 	}
 }
