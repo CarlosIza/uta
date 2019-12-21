@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pruebaCarlosDos
+namespace principal
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("hola munfo");
-			Console.WriteLine("commit dos");
 		}
 	}
 }
